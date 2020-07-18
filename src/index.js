@@ -53,7 +53,7 @@ export default {
   gitignore: ['/.eslintrc.json', '/.stylelintrc.json', '/postcss.config.js'],
   lint: async () => {
     await execa.command(
-      'eslint --fix --ignore-path .gitignore --ext .js,.json .',
+      'eslint --fix --ignore-pattern dist --ignore-path .gitignore --ext .js,.json .',
       { stdio: 'inherit' }
     )
     await execa.command(
