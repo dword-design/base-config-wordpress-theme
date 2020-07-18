@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.2...v1.1.3) (2020-07-18)
+
+
+### Bug Fixes
+
+* foo ([9f28198](https://github.com/dword-design/base-config-wordpress-theme/commit/9f2819861f3edcb7831da2ada12f384039dfe658))
+
 ## [1.1.2](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.1...v1.1.2) (2020-07-18)
 
 
