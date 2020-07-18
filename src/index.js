@@ -1,7 +1,7 @@
 import depcheckSassParser from '@dword-design/depcheck-sass-parser'
 import { endent } from '@dword-design/functions'
 import execa from 'execa'
-import { remove } from 'fs-extra'
+import { exists, remove } from 'fs-extra'
 import getPackageName from 'get-package-name'
 import outputFiles from 'output-files'
 import P from 'path'
@@ -12,14 +12,30 @@ const sassImporterPath = P.relative(
 )
 
 export default {
-  allowedMatches: ['fonts', 'images', 'scss', '*.php', 'screenshot.png'],
+  allowedMatches: [
+    'dist',
+    'fonts',
+    'images',
+    'scss',
+    '*.php',
+    'screenshot.png',
+    'src',
+  ],
   commands: {
     prepublishOnly: async () => {
+      if (P.join('src', 'index.js') |> exists |> await) {
+        await execa(
+          'webpack',
+          ['--config', require.resolve('./webpack.config')],
+          { stdio: 'inherit' }
+        )
+      }
       await remove('css')
       await execa.command(
-        `node-sass --importer ${sassImporterPath} --output css scss`
+        `node-sass --importer ${sassImporterPath} --output css scss`,
+        { stdio: 'inherit' }
       )
-      await execa.command('postcss css --replace')
+      await execa.command('postcss css --replace', { stdio: 'inherit' })
     },
   },
   depcheckConfig: {
@@ -27,14 +43,29 @@ export default {
       '*.scss': depcheckSassParser,
     },
   },
-  editorIgnore: ['.stylelintrc.json', 'postcss.config.js'],
-  gitignore: ['/.stylelintrc.json', '/postcss.config.js'],
-  lint: () =>
-    execa.command(
-      'stylelint --fix --allow-empty-input --ignore-path .gitignore **/*.scss'
-    ),
+  editorIgnore: ['.eslintrc.json', '.stylelintrc.json', 'postcss.config.js', 'css', 'dist'],
+  gitignore: ['/.eslintrc.json', '/.stylelintrc.json', '/postcss.config.js'],
+  lint: async () => {
+    await execa.command(
+      'eslint --fix --ignore-path .gitignore --ext .js,.json .',
+      { stdio: 'inherit' }
+    )
+    await execa.command(
+      'stylelint --fix --allow-empty-input --ignore-path .gitignore **/*.scss',
+      { stdio: 'inherit' }
+    )
+  },
   prepare: () =>
     outputFiles({
+      '.eslintrc.json': JSON.stringify(
+        {
+          extends: getPackageName(
+            require.resolve('@dword-design/eslint-config')
+          ),
+        },
+        undefined,
+        2
+      ),
       '.stylelintrc.json': JSON.stringify(
         {
           extends: getPackageName(
