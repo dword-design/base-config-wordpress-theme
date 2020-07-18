@@ -43,7 +43,13 @@ export default {
       '*.scss': depcheckSassParser,
     },
   },
-  editorIgnore: ['.eslintrc.json', '.stylelintrc.json', 'postcss.config.js', 'css', 'dist'],
+  editorIgnore: [
+    '.eslintrc.json',
+    '.stylelintrc.json',
+    'postcss.config.js',
+    'css',
+    'dist',
+  ],
   gitignore: ['/.eslintrc.json', '/.stylelintrc.json', '/postcss.config.js'],
   lint: async () => {
     await execa.command(
