@@ -6,11 +6,6 @@ import getPackageName from 'get-package-name'
 import outputFiles from 'output-files'
 import P from 'path'
 
-const sassImporterPath = P.relative(
-  process.cwd(),
-  require.resolve('node-sass-tilde-importer/package.json') |> P.dirname
-)
-
 export default {
   allowedMatches: [
     'dist',
@@ -31,8 +26,15 @@ export default {
         )
       }
       await remove('css')
-      await execa.command(
-        `node-sass --importer ${sassImporterPath} --output css scss`,
+      await execa(
+        'node-sass',
+        [
+          '--importer',
+          require.resolve('./sass-importer'),
+          '--output',
+          'css',
+          'scss',
+        ],
         { stdio: 'inherit' }
       )
       await execa.command('postcss css --replace', { stdio: 'inherit' })
