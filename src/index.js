@@ -8,6 +8,7 @@ import P from 'path'
 
 export default {
   allowedMatches: [
+    'css',
     'dist',
     'fonts',
     'images',
@@ -15,6 +16,7 @@ export default {
     '*.php',
     'screenshot.png',
     'src',
+    'style.css',
   ],
   commands: {
     prepublishOnly: async () => {
