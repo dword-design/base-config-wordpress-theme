@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.3...v1.1.4) (2020-07-18)
+
+
+### Bug Fixes
+
+* add allowed matches ([2d2b887](https://github.com/dword-design/base-config-wordpress-theme/commit/2d2b887d212f5f00d05683a9df35e8f067545e7f))
+
 ## [1.1.3](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.2...v1.1.3) (2020-07-18)
 
 
