@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.1...v1.1.2) (2020-07-18)
+
+
+### Bug Fixes
+
+* use package importer ([1cceb17](https://github.com/dword-design/base-config-wordpress-theme/commit/1cceb17bb233c39ffed86ec435eed28be28fa95e))
+
 ## [1.1.1](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.0...v1.1.1) (2020-07-18)
 
 
