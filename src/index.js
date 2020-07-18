@@ -11,12 +11,14 @@ export default {
     'css',
     'dist',
     'fonts',
+    'gigpress-templates',
     'images',
     'scss',
     '*.php',
     'screenshot.png',
     'src',
     'style.css',
+    'views',
   ],
   commands: {
     prepublishOnly: async () => {
