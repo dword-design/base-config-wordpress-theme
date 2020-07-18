@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.0...v1.1.1) (2020-07-18)
+
+
+### Bug Fixes
+
+* do not lint dist folder ([f764c7c](https://github.com/dword-design/base-config-wordpress-theme/commit/f764c7ca9dd3f45a3d205b8630b77eb79c9870b9))
+
 # [1.1.0](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.0.0...v1.1.0) (2020-07-18)
 
 
