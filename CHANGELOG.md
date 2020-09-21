@@ -1,3 +1,12 @@
+## [1.1.5](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.4...v1.1.5) (2020-09-21)
+
+
+### Bug Fixes
+
+* build files ([2d310c5](https://github.com/dword-design/base-config-wordpress-theme/commit/2d310c5af8892c7b819ee775317b404bf218bbdc))
+* trigger release ([b0367b9](https://github.com/dword-design/base-config-wordpress-theme/commit/b0367b917befc2268bd113009c789cbe37736880))
+* trigger release ([4314095](https://github.com/dword-design/base-config-wordpress-theme/commit/4314095334b34fd94780bed8af949e78a58c0a9d))
+
 ## [1.1.4](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.3...v1.1.4) (2020-07-18)
 
 
