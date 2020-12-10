@@ -34,7 +34,7 @@
     "postcss-cli": "^7.1.1",
     "stylelint": "^13.6.1",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^4.0.0"
   },
   "devDependencies": {
     "@dword-design/base": "^6.24.1"
