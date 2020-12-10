@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.5...v1.1.6) (2020-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v5 ([f49ba90](https://github.com/dword-design/base-config-wordpress-theme/commit/f49ba907a9e04fb301880893470b9daeb04335ff))
+
 ## [1.1.5](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.4...v1.1.5) (2020-09-21)
 
 
