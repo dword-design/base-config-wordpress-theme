@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.6...v1.1.7) (2020-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack-cli to v4 ([60d3221](https://github.com/dword-design/base-config-wordpress-theme/commit/60d32213ac432c213da5a04e43c95bd10d2d17f3))
+
 ## [1.1.6](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.5...v1.1.6) (2020-12-10)
 
 
