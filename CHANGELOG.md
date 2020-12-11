@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.7...v1.1.8) (2020-12-11)
+
+
+### Bug Fixes
+
+* replace get-package-name with depcheck-package-name ([678ac64](https://github.com/dword-design/base-config-wordpress-theme/commit/678ac647fc08aa6fc6b21272981fb4eed6275807))
+
 ## [1.1.7](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.6...v1.1.7) (2020-12-10)
 
 
