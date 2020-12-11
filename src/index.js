@@ -1,8 +1,8 @@
 import depcheckSassParser from '@dword-design/depcheck-sass-parser'
 import { endent } from '@dword-design/functions'
+import packageName from 'depcheck-package-name'
 import execa from 'execa'
 import { exists, remove } from 'fs-extra'
-import getPackageName from 'get-package-name'
 import outputFiles from 'output-files'
 import P from 'path'
 
@@ -71,18 +71,14 @@ export default {
     outputFiles({
       '.eslintrc.json': JSON.stringify(
         {
-          extends: getPackageName(
-            require.resolve('@dword-design/eslint-config')
-          ),
+          extends: packageName`@dword-design/eslint-config`,
         },
         undefined,
         2
       ),
       '.stylelintrc.json': JSON.stringify(
         {
-          extends: getPackageName(
-            require.resolve('@dword-design/stylelint-config')
-          ),
+          extends: packageName`@dword-design/stylelint-config`,
         },
         undefined,
         2
@@ -90,10 +86,8 @@ export default {
       'postcss.config.js': endent`
         module.exports = {
           plugins: [
-            require('${getPackageName(require.resolve('autoprefixer'))}'),
-            require('${getPackageName(
-              require.resolve('cssnano')
-            )}')({ preset: 'default' }),
+            require('${packageName`autoprefixer`}'),
+            require('${packageName`cssnano`}')({ preset: 'default' }),
           ],
         }
 
