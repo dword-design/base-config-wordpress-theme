@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.8...v1.2.0) (2021-02-15)
+
+
+### Features
+
+* add docker-based dev script ([ebcc9f0](https://github.com/dword-design/base-config-wordpress-theme/commit/ebcc9f0f4c13a08c6ef73f1589ed58616d798847))
+
 ## [1.1.8](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.1.7...v1.1.8) (2020-12-11)
 
 
