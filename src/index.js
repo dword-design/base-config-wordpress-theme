@@ -5,6 +5,7 @@ import execa from 'execa'
 import { exists, remove } from 'fs-extra'
 import outputFiles from 'output-files'
 import P from 'path'
+import yaml from 'yaml'
 
 export default {
   allowedMatches: [
@@ -21,6 +22,11 @@ export default {
     'views',
   ],
   commands: {
+    dev: () =>
+      execa.command(
+        'docker-compose up && docker-compose down -v --remove-orphans',
+        { stdio: 'inherit' }
+      ),
     prepublishOnly: async () => {
       if (P.join('src', 'index.js') |> exists |> await) {
         await execa(
@@ -83,6 +89,34 @@ export default {
         undefined,
         2
       ),
+      'docker-compose.yml': yaml.stringify({
+        services: {
+          db: {
+            environment: {
+              MYSQL_DATABASE: 'wordpress',
+              MYSQL_PASSWORD: 'wordpress',
+              MYSQL_ROOT_PASSWORD: 'somewordpress',
+              MYSQL_USER: 'wordpress',
+            },
+            image: 'mysql:5.7',
+            restart: 'always',
+          },
+          wordpress: {
+            depends_on: ['db'],
+            environment: {
+              WORDPRESS_DB_HOST: 'db:3306',
+              WORDPRESS_DB_NAME: 'wordpress',
+              WORDPRESS_DB_PASSWORD: 'wordpress',
+              WORDPRESS_DB_USER: 'wordpress',
+            },
+            image: 'wordpress:latest',
+            ports: ['3000:80'],
+            restart: 'always',
+            volumes: ['.:/var/www/html/wp-content/themes/theme'],
+          },
+        },
+        version: '3.3',
+      }),
       'postcss.config.js': endent`
         module.exports = {
           plugins: [
