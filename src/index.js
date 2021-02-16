@@ -22,11 +22,12 @@ export default {
     'views',
   ],
   commands: {
-    dev: () =>
-      execa.command(
-        'docker-compose up && docker-compose down -v --remove-orphans',
-        { stdio: 'inherit' }
-      ),
+    dev: async () => {
+      await execa.command('docker-compose up', { stdio: 'inherit' })
+      await execa.command('docker-compose down -v --remove-orphans', {
+        stdio: 'inherit',
+      })
+    },
     prepublishOnly: async () => {
       if (P.join('src', 'index.js') |> exists |> await) {
         await execa(
