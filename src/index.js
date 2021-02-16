@@ -11,6 +11,7 @@ export default {
   allowedMatches: [
     'css',
     'dist',
+    'docker-compose.yml',
     'fonts',
     'gigpress-templates',
     'images',
