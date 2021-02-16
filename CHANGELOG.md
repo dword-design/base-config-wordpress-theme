@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.1...v1.2.2) (2021-02-16)
+
+
+### Bug Fixes
+
+* allow docker-compose.yml ([#12](https://github.com/dword-design/base-config-wordpress-theme/issues/12)) ([e693efb](https://github.com/dword-design/base-config-wordpress-theme/commit/e693efb6210c0b189ef18a8460864b1aeb5fb5b9))
+
 ## [1.2.1](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.0...v1.2.1) (2021-02-16)
 
 
