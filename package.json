@@ -22,7 +22,7 @@
     "@dword-design/depcheck-sass-parser": "^1.0.5",
     "@dword-design/functions": "^1.1.3",
     "@dword-design/stylelint-config": "^1.2.2",
-    "autoprefixer": "^9.8.5",
+    "autoprefixer": "^10.0.0",
     "clean-webpack-plugin": "^3.0.0",
     "cssnano": "^4.1.10",
     "depcheck-package-name": "^1.0.0",
