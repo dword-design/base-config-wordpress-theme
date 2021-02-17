@@ -1657,7 +1657,6 @@
 
 "@vue/babel-preset-jsx@dword-design/jsx#fork-babel-preset-jsx":
   version "1.1.2"
-  uid a73cb9961541a60a66b1b99a69a32e00bc66d336
   resolved "https://codeload.github.com/dword-design/jsx/tar.gz/a73cb9961541a60a66b1b99a69a32e00bc66d336"
   dependencies:
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
@@ -2343,7 +2342,6 @@ babel-plugin-transform-imports@^2.0.0:
 
 babel-plugin-wildcard@dword-design/babel-plugin-wildcard#fork:
   version "6.0.0"
-  uid "691d11923ee2dcf63e86f205b0a2c998883e3a3c"
   resolved "https://codeload.github.com/dword-design/babel-plugin-wildcard/tar.gz/691d11923ee2dcf63e86f205b0a2c998883e3a3c"
   dependencies:
     rimraf "^2.6.2"
@@ -3924,7 +3922,6 @@ depcheck-parser-babel@^1.2.0:
 
 depcheck@dword-design/depcheck#fork:
   version "0.0.1"
-  uid "8a9eb41006c2c6f9cbd79e4e68bf265e1c1df1dc"
   resolved "https://codeload.github.com/dword-design/depcheck/tar.gz/8a9eb41006c2c6f9cbd79e4e68bf265e1c1df1dc"
   dependencies:
     "@babel/parser" "^7.8.4"
@@ -4378,7 +4375,6 @@ eslint-config-prettier@^7.0.0:
 
 eslint-import-resolver-babel-module@dword-design/eslint-import-resolver-babel-module#fork:
   version "5.1.2"
-  uid "97550c5b7626a9cf582ea2392b9749702a27473d"
   resolved "https://codeload.github.com/dword-design/eslint-import-resolver-babel-module/tar.gz/97550c5b7626a9cf582ea2392b9749702a27473d"
   dependencies:
     pkg-up "^2.0.0"
@@ -7804,7 +7800,7 @@ nan@^2.12.1, nan@^2.13.2:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
-nanoid@3.1.20:
+nanoid@3.1.20, nanoid@^3.1.20:
   version "3.1.20"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
   integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
@@ -9442,6 +9438,15 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
+
+postcss@^8.2.6:
+  version "8.2.6"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.6.tgz#5d69a974543b45f87e464bc4c3e392a97d6be9fe"
+  integrity sha512-xpB8qYxgPuly166AGlpRjUdEYtmOWx2iCwGmrv4vqZL9YPVviDVPZPRXxnXr6xPZOdxQ9lp3ZBFCRgWJ7LE3Sg==
+  dependencies:
+    colorette "^1.2.1"
+    nanoid "^3.1.20"
+    source-map "^0.6.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -11116,7 +11121,6 @@ stylelint-scss@^3.17.2:
 
 stylelint-use-nesting@dword-design/stylelint-use-nesting#fork:
   version "3.0.0"
-  uid "3fa262d8898e33da3831ed526e45dade37c270e7"
   resolved "https://codeload.github.com/dword-design/stylelint-use-nesting/tar.gz/3fa262d8898e33da3831ed526e45dade37c270e7"
 
 stylelint@^13.6.1:
