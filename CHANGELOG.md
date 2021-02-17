@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.3...v1.2.4) (2021-02-17)
+
+
+### Bug Fixes
+
+* update dependency postcss-cli to v8 ([#4](https://github.com/dword-design/base-config-wordpress-theme/issues/4)) ([76c1598](https://github.com/dword-design/base-config-wordpress-theme/commit/76c159875ee4b9289eeb8bf9db5fc76d7bc43e60))
+
 ## [1.2.3](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.2...v1.2.3) (2021-02-16)
 
 
