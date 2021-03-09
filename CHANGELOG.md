@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.4...v1.2.5) (2021-03-09)
+
+
+### Bug Fixes
+
+* update dependency autoprefixer to v10 ([c7b2e4c](https://github.com/dword-design/base-config-wordpress-theme/commit/c7b2e4c44be45bc8f7d3cbcf158e501009628088))
+
 ## [1.2.4](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.3...v1.2.4) (2021-02-17)
 
 
