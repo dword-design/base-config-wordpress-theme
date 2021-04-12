@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.9...v1.2.10) (2021-04-12)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#23](https://github.com/dword-design/base-config-wordpress-theme/issues/23)) ([534f420](https://github.com/dword-design/base-config-wordpress-theme/commit/534f420c6f7241e132b816b68e9f6ef94ecab7d9))
+
 ## [1.2.9](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.8...v1.2.9) (2021-03-31)
 
 
