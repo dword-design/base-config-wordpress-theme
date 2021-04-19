@@ -20,7 +20,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@dword-design/depcheck-sass-parser": "^1.0.5",
+    "@dword-design/depcheck-parser-sass": "^1.1.11",
     "@dword-design/functions": "^3.0.0",
     "@dword-design/stylelint-config": "^1.2.2",
     "autoprefixer": "^10.0.0",
