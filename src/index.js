@@ -1,4 +1,4 @@
-import depcheckSassParser from '@dword-design/depcheck-sass-parser'
+import depcheckParserSass from '@dword-design/depcheck-parser-sass'
 import { endent } from '@dword-design/functions'
 import packageName from 'depcheck-package-name'
 import execa from 'execa'
@@ -54,7 +54,7 @@ export default {
   },
   depcheckConfig: {
     parsers: {
-      '*.scss': depcheckSassParser,
+      '*.scss': depcheckParserSass,
     },
   },
   editorIgnore: [
