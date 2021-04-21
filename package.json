@@ -1,6 +1,7 @@
 {
   "name": "@dword-design/base-config-wordpress-theme",
   "version": "1.2.11",
+  "description": "",
   "repository": "dword-design/base-config-wordpress-theme",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
