@@ -57,33 +57,15 @@ export default {
       '*.scss': depcheckParserSass,
     },
   },
-  editorIgnore: [
-    '.eslintrc.json',
-    '.stylelintrc.json',
-    'postcss.config.js',
-    'css',
-    'dist',
-  ],
-  gitignore: ['/.eslintrc.json', '/.stylelintrc.json', '/postcss.config.js'],
-  lint: async () => {
-    await execa.command(
-      'eslint --fix --ignore-pattern dist --ignore-path .gitignore --ext .js,.json .',
-      { stdio: 'inherit' }
-    )
-    await execa.command(
+  editorIgnore: ['.stylelintrc.json', 'postcss.config.js', 'css', 'dist'],
+  gitignore: ['/.stylelintrc.json', '/postcss.config.js'],
+  lint: () =>
+    execa.command(
       'stylelint --fix --allow-empty-input --ignore-path .gitignore **/*.scss',
       { stdio: 'inherit' }
-    )
-  },
+    ),
   prepare: () =>
     outputFiles({
-      '.eslintrc.json': JSON.stringify(
-        {
-          extends: packageName`@dword-design/eslint-config`,
-        },
-        undefined,
-        2
-      ),
       '.stylelintrc.json': JSON.stringify(
         {
           extends: packageName`@dword-design/stylelint-config`,
