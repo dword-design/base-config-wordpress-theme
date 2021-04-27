@@ -1,3 +1,10 @@
+## [1.2.14](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.13...v1.2.14) (2021-04-27)
+
+
+### Bug Fixes
+
+* remove eslint ([#36](https://github.com/dword-design/base-config-wordpress-theme/issues/36)) ([ac9b629](https://github.com/dword-design/base-config-wordpress-theme/commit/ac9b629b6b014c555d5a49a833985bdda1afa06e))
+
 ## [1.2.13](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.12...v1.2.13) (2021-04-22)
 
 
