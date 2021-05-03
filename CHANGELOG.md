@@ -1,3 +1,10 @@
+## [1.2.16](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.15...v1.2.16) (2021-05-03)
+
+
+### Bug Fixes
+
+* ignore dist ([#38](https://github.com/dword-design/base-config-wordpress-theme/issues/38)) ([d2859e9](https://github.com/dword-design/base-config-wordpress-theme/commit/d2859e9d762609ed88fabe40d395f0207e7016d2))
+
 ## [1.2.15](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.14...v1.2.15) (2021-04-28)
 
 
