@@ -1,3 +1,10 @@
+## [1.2.17](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.16...v1.2.17) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#39](https://github.com/dword-design/base-config-wordpress-theme/issues/39)) ([8128bc0](https://github.com/dword-design/base-config-wordpress-theme/commit/8128bc007ce90fb2653b5cdb7528b8f8a4756ed0))
+
 ## [1.2.16](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.15...v1.2.16) (2021-05-03)
 
 
