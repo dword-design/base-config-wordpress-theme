@@ -1213,10 +1213,10 @@
     execa "^5.0.0"
     make-cli "^1.0.16"
 
-"@dword-design/depcheck-parser-sass@^1.1.11":
-  version "1.1.15"
-  resolved "https://registry.yarnpkg.com/@dword-design/depcheck-parser-sass/-/depcheck-parser-sass-1.1.15.tgz#3f53894eb7da34bc467a645b8be5111b638d24ab"
-  integrity sha512-NmBsAo+IjlEG/gTFU33TxRQfeFvpv7DeaNU5eL9UPymc7V6FVODj0PBWJ2aE/4lA34K1n9r5r5qqd8rOHVcM1Q==
+"@dword-design/depcheck-parser-sass@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/depcheck-parser-sass/-/depcheck-parser-sass-2.0.0.tgz#dd597b9e6199f505cb847e909412c021c7264ed2"
+  integrity sha512-A9ojUCzpbNaPn+GvwEf4kZ7xr3c4TlDHOAg9Kfy4JRQYx4gRN3LIEg5D2PK1SEHfxYwLkrBW9W7IuPVmT2okmA==
   dependencies:
     "@dword-design/functions" "^3.0.0"
     get-package-name "^1.1.0"
