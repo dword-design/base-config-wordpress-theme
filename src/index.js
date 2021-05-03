@@ -10,7 +10,6 @@ import yaml from 'yaml'
 export default {
   allowedMatches: [
     'css',
-    'dist',
     'docker-compose.yml',
     'fonts',
     'gigpress-templates',
@@ -22,6 +21,8 @@ export default {
     'style.css',
     'views',
   ],
+  editorIgnore: ['dist'],
+  gitignore: ['/dist'],
   commands: {
     dev: async () => {
       await execa.command('docker-compose up', { stdio: 'inherit' })
