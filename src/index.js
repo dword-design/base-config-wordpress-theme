@@ -10,7 +10,6 @@ import yaml from 'yaml'
 export default {
   allowedMatches: [
     'css',
-    'dist',
     'docker-compose.yml',
     'fonts',
     'gigpress-templates',
@@ -58,7 +57,7 @@ export default {
     },
   },
   editorIgnore: ['.stylelintrc.json', 'postcss.config.js', 'css', 'dist'],
-  gitignore: ['/.stylelintrc.json', '/postcss.config.js'],
+  gitignore: ['/.stylelintrc.json', '/dist', '/postcss.config.js'],
   lint: () =>
     execa.command(
       'stylelint --fix --allow-empty-input --ignore-path .gitignore **/*.scss',
