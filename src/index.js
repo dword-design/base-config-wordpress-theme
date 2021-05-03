@@ -21,8 +21,6 @@ export default {
     'style.css',
     'views',
   ],
-  editorIgnore: ['dist'],
-  gitignore: ['/dist'],
   commands: {
     dev: async () => {
       await execa.command('docker-compose up', { stdio: 'inherit' })
@@ -59,7 +57,7 @@ export default {
     },
   },
   editorIgnore: ['.stylelintrc.json', 'postcss.config.js', 'css', 'dist'],
-  gitignore: ['/.stylelintrc.json', '/postcss.config.js'],
+  gitignore: ['/.stylelintrc.json', '/dist', '/postcss.config.js'],
   lint: () =>
     execa.command(
       'stylelint --fix --allow-empty-input --ignore-path .gitignore **/*.scss',
