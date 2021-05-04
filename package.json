@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@dword-design/depcheck-parser-sass": "^2.0.0",
-    "@dword-design/functions": "^3.0.0",
+    "@dword-design/functions": "^4.0.0",
     "@dword-design/stylelint-config": "^2.0.0",
     "autoprefixer": "^10.0.0",
     "clean-webpack-plugin": "^3.0.0",
