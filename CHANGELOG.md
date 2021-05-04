@@ -1,3 +1,15 @@
+## [1.2.18](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.17...v1.2.18) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/depcheck-parser-sass to v2 ([#40](https://github.com/dword-design/base-config-wordpress-theme/issues/40)) ([ba69d78](https://github.com/dword-design/base-config-wordpress-theme/commit/ba69d788ec9bf909b7465b0ead313bd5023fb090))
+* update dependency @dword-design/functions to v4 ([#41](https://github.com/dword-design/base-config-wordpress-theme/issues/41)) ([d95426b](https://github.com/dword-design/base-config-wordpress-theme/commit/d95426b52f4a8865bc8c14d3409352c740258388))
+* update dependency @dword-design/stylelint-config to v2 ([#42](https://github.com/dword-design/base-config-wordpress-theme/issues/42)) ([87ac87f](https://github.com/dword-design/base-config-wordpress-theme/commit/87ac87fd5bf98d9ed2d6fc23e2e104bbf0a69fa3))
+* update dependency depcheck-package-name to v2 ([#43](https://github.com/dword-design/base-config-wordpress-theme/issues/43)) ([92c4772](https://github.com/dword-design/base-config-wordpress-theme/commit/92c4772215add18623a2bb8fea26227bd95d6fe8))
+* update dependency fs-extra to v10 ([#44](https://github.com/dword-design/base-config-wordpress-theme/issues/44)) ([e977af6](https://github.com/dword-design/base-config-wordpress-theme/commit/e977af62725ae573324a5a3384ec2d4010880623))
+* update dependency output-files to v2 ([#45](https://github.com/dword-design/base-config-wordpress-theme/issues/45)) ([781755f](https://github.com/dword-design/base-config-wordpress-theme/commit/781755f4c0d070ed7e0e31574b31311a4d707963))
+
 ## [1.2.17](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.16...v1.2.17) (2021-05-03)
 
 
