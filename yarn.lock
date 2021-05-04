@@ -1269,10 +1269,10 @@
     lodash "^4.17.15"
     tinycolor2 "^1.4.1"
 
-"@dword-design/stylelint-config@^1.2.2":
-  version "1.2.16"
-  resolved "https://registry.yarnpkg.com/@dword-design/stylelint-config/-/stylelint-config-1.2.16.tgz#8882fb292a096e0049e1f62f16348150db89f2bf"
-  integrity sha512-u+zBN3dRgXJrP52sAYXCly3tjXEznmpsrwqNQqaI3ZnOOAIjqng7ZvSWLGUV12pSTHRHuIpShvcyarGQdXxI/A==
+"@dword-design/stylelint-config@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/stylelint-config/-/stylelint-config-2.0.0.tgz#679a2ea0cae1bc54f99599d14b38770f44d7a2cf"
+  integrity sha512-AdP/T8A9VlMm2gUWZfRs34F9YtEgK4yJT012WXGQtfQj4QubGmkmVWncHq3TACpxQum1BXBOCk436V8TYDpNMQ==
   dependencies:
     depcheck-package-name "^1.0.0"
     stylelint-config-hudochenkov "^5.0.0"
