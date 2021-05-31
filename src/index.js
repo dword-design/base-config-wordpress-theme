@@ -8,6 +8,7 @@ import P from 'path'
 import yaml from 'yaml'
 
 export default {
+  isLockFileFixCommitType: true,
   allowedMatches: [
     'css',
     'docker-compose.yml',
