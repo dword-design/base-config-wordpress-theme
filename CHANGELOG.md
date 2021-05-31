@@ -1,3 +1,10 @@
+## [1.2.20](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.19...v1.2.20) (2021-05-31)
+
+
+### Bug Fixes
+
+* make lock file fix commit type ([b4004a6](https://github.com/dword-design/base-config-wordpress-theme/commit/b4004a6104fad35bcc388ca061d1432d0c96c5d2))
+
 ## [1.2.19](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.18...v1.2.19) (2021-05-28)
 
 
