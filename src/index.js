@@ -8,7 +8,6 @@ import P from 'path'
 import yaml from 'yaml'
 
 export default {
-  isLockFileFixCommitType: true,
   allowedMatches: [
     'css',
     'docker-compose.yml',
@@ -59,6 +58,7 @@ export default {
   },
   editorIgnore: ['.stylelintrc.json', 'postcss.config.js', 'css', 'dist'],
   gitignore: ['/.stylelintrc.json', '/dist', '/postcss.config.js'],
+  isLockFileFixCommitType: true,
   lint: () =>
     execa.command(
       'stylelint --fix --allow-empty-input --ignore-path .gitignore **/*.scss',
