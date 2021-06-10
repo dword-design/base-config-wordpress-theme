@@ -1,3 +1,10 @@
+## [1.2.21](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.20...v1.2.21) (2021-06-10)
+
+
+### Bug Fixes
+
+* fix depcheck parsers ([e5e0036](https://github.com/dword-design/base-config-wordpress-theme/commit/e5e00363cae813aa889248176465b862a7b496a0))
+
 ## [1.2.20](https://github.com/dword-design/base-config-wordpress-theme/compare/v1.2.19...v1.2.20) (2021-05-31)
 
 
