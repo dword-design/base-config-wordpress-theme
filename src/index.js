@@ -53,7 +53,7 @@ export default {
   },
   depcheckConfig: {
     parsers: {
-      '*.scss': depcheckParserSass,
+      '**/*.scss': depcheckParserSass,
     },
   },
   editorIgnore: ['.stylelintrc.json', 'postcss.config.js', 'css', 'dist'],
