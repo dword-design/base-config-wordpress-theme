@@ -31,7 +31,7 @@ export default {
     prepublishOnly: async () => {
       if (P.join('src', 'index.js') |> exists |> await) {
         await execa(
-          'webpack',
+          'webpack-cli',
           ['--config', require.resolve('./webpack.config')],
           { stdio: 'inherit' }
         )
