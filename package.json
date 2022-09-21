@@ -32,7 +32,7 @@
     "output-files": "^2.0.0",
     "postcss": "^8.2.6",
     "postcss-cli": "^8.0.0",
-    "stylelint": "^13.6.1",
+    "stylelint": "^14.0.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^4.0.0",
     "yaml": "^1.10.0"
